@@ -5,129 +5,36 @@
 }
 
 body{
-  font-size: 20px;
-}
-
-.enlace{
-  display: block;
-  background-color: #c2c2c2;
-  background-color: tomato;
-  color: #fff;
-  text-decoration: none;
-  padding: 20px;
-  border-bottom: 3px solid #000 ;
-  transition: all 6s;
-}
-
-.enlace:link{
-  background-color: steelblue;
-}
-
-.enlace:visited{
-  background-color: crimson;
-}
-
-.enlace:active{
-  background-color: yellow;
-  color: black;
-}
-
-.enlace.hover{
-  padding: 40px;
-  background-color: violet;
-}
-
-.event{
-  display: inline-block;
-  margin-top: 30px;
-  margin-left: 20px;
-  background-color: crimson;
-  color: #fff;
-  text-decoration: none;
-  padding: 20px;
-  border-radius: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  transition: all 1px;
-  border: solid 1px crimson;
-}
-
-.event.hover{
-  background-color: red;
-  border: solid 1px black;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .box{
-  width: 100px;
-  height: 100px;
   background-color: steelblue;
-  margin-left: 20px;
-  margin-top: 20px;
-  transition: all 3.5s;
-  border: gray solid 5px;
-}
-
-#objetivo:target{
-  margin-left: 200px;
-  border-radius: 100px;
-  background-color: yellowgreen;
-  border: gray solid 5px;
-
-}
-
-.form{
-  width: 80%;
-  margin: 30px;
-  background-color: #f2f2f2;
-  padding: 30px;
-  border-radius: 6px;
-  box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
-}
-
-.form_title{
+  width: 55px;
+  height: 55px;
+  margin: 10px 0;
+  line-height: 55px;
   text-align: center;
-  padding-bottom: 20px;
-}
-
-input{
-  display: block;
-  transition: all 0,8s;
-}
-
-input[type="text"],
-input[type="email"]{
-  width: 100%;
-  padding: 10px 5px;
-  margin-bottom: 20px;
-  border: none;
-  outline: none;
-}
-
-input[type="checkbox"]{
-  display: inline-block;
-}
-
-input:focus{
-  background-color: black;
   color: #fff;
+  font-weight: bold;
 }
 
-input[type="checkbox"]:checked + label{
-  color: red;
+.container{
+  border: 3px solid crimson;
+  margin-left: -5px;
+  padding: 10px 0;
 }
 
-.form:focus-within{
+/*.box:only-of-type{
+  background-color: tomato;
+}*/
+
+.box:first-of-type{
   background-color: tomato;
 }
 
-h3{
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-h3:not(.title):not(:hover){
-  color: crimson;
+.box:last-of-type{
+  background-color: tomato;
+  
 }
